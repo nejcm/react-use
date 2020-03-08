@@ -2,7 +2,7 @@
 
 Thanks for being willing to contribute 🙌 If you contribute to this project, you agree to release your work under the license of this project.
 
-**Working on your first Pull Request?** You can learn how from this [First Contributions](https://github.com/firstcontributions/first-contributions)  guide.
+**Working on your first Pull Request?** You can learn how from this [First Contributions](https://github.com/firstcontributions/first-contributions) guide.
 
 ## Project setup
 
@@ -31,7 +31,7 @@ This library is a collection of React hooks so a proposal for a new hook will ne
 
 ### Creating a new hook
 
-1. Create `src/useYourHookName.ts` and `src/__stories__/useYourHookName.story.tsx`, run `yarn start` to start the storybook development server and start coding your hook
+1. Create `src/useYourHookName.ts` and `src/stories/useYourHookName.story.tsx`, run `yarn start` to start the storybook development server and start coding your hook
 1. Create `src/__tests__/useYourHookName.test.ts`, run `yarn test:watch` to start the test runner in watch mode and start writing tests for your hook
 1. Create `src/docs/useYourHookName.md` and create documentation for your hook
 1. Export your hook from `src/index.ts` and add your hook to `README.md`

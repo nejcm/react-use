@@ -121,6 +121,10 @@
   - [`useUpdateEffect`](./docs/useUpdateEffect.md) &mdash; run an `effect` only on updates.
   - [`useIsomorphicLayoutEffect`](./docs/useIsomorphicLayoutEffect.md) &mdash; `useLayoutEffect` that does not show warning when server-side rendering.
   - [`useDeepCompareEffect`](./docs/useDeepCompareEffect.md), [`useShallowCompareEffect`](./docs/useShallowCompareEffect.md), and [`useCustomCompareEffect`](./docs/useCustomCompareEffect.md) &mdash; run an `effect` depending on deep comparison of its dependencies
+  - [`useEffectAfterMount`](./docs/useEffectAfterMount.md) &mdash; run an `effect` after component has mounted.
+  - [`useEffectMounted`](./docs/useEffectMounted.md) &mdash; Provides a check if the component is still mounted. Useful for `side effects` that happen after the component has unmounted.
+  - [`useFetch`](./docs/useFetch.md) &mdash; resolves promise / fetches data only while component is mounted.
+  - [`usePrefetch`](./docs/usePrefetch.md) &mdash; prefetches the imported file.
     <br/>
     <br/>
 - [**State**](./docs/State.md)
