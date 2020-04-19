@@ -114,4 +114,12 @@ export { default as useVibrate } from './useVibrate';
 export { default as useVideo } from './useVideo';
 export { default as useWindowScroll } from './useWindowScroll';
 export { default as useWindowSize } from './useWindowSize';
+<<<<<<< HEAD
+=======
+export { default as useMeasure } from './useMeasure';
+export { useRendersCount } from './useRendersCount';
+export { useFirstMountState } from './useFirstMountState';
+export { default as useSet } from './useSet';
+export { createGlobalState } from './createGlobalState';
 export { useHash } from './useHash'
+>>>>>>> master
